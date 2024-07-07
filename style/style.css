@@ -171,6 +171,12 @@ li a {
   color: var(--dark3Color);
   margin-top: 20px;
 }
+.Skills_com
+{
+  background: var(--bgColor);
+  border-radius: 5px;
+  margin: 0 10px;
+}
 
 .skills {
   display: flex;
