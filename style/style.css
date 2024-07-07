@@ -21,10 +21,10 @@
 header {
   background-color: var(--bgColor);
   height: 875px;
-  background-image: url('../images/developer.png'),url('../images/header_bg.png');
+  background-image: url('../images/developer.png'),
+    url('../images/header_bg.png');
   background-repeat: no-repeat;
   background-position: top left, bottom right;
-
 }
 head {
   display: flex;
@@ -108,14 +108,56 @@ li a {
   color: var(--btnColor);
   margin-left: 10px;
 }
-.comon{
+.comon {
   margin-top: 2rem;
-
 }
-.comon ion-icon
-{
-  margin-right:6px;
+.comon ion-icon {
+  margin-right: 6px;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
+/* About me are  */
+.About_me {
+  height: 600px;
+}
+.about {
+  border: 1px solid transparent;
+  margin: 20px 150px;
+  background: var(--bgColor);
+}
+.about_info {
+  border: 1px solid var(--dark3Color);
+  border-radius: 5px;
+  margin: 80px 150px;
+  background: var(--bgSecondaryColor);
+  height: 250px;
+}
+
+.about_info h1
+{
+  font-size: 1.5rem;
+  color: var(--dark1Color);
+  text-align: center;
+}
+.about_info p 
+{
+  color: var(--dark3Color);
+  margin-top: 20px;
+}
+.about_cantect_info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+.item-title
+{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.item-description
+{
+  font-weight: bold;
+  color: #474747;
+}
