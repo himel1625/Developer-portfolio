@@ -255,7 +255,74 @@ li a {
   margin-bottom: 35px;
 }
 
-.bottom_btn
+.bottom_btn {
+  text-align: center;
+}
+
+/* footer  */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  background:var(--bgColor);
+  margin-top: 150px;
+
+}
+.footer_are
 {
-text-align: center;
+  margin-top: 50px;
+  display: flex;
+}
+.Connect
+{
+  margin-left: 70px;
+}
+.Connect h1
+{
+
+  font-weight: 600;
+}
+.Connect p
+{
+  color: var(--dark3Color);
+  width: 70%;
+  margin-top: 30px;
+}
+.Connect ion-icon
+{
+  padding: 10px;
+  font-size: 1.5rem;
+  color: var(--btnColor);
+}
+
+.frome_from
+{
+  line-height: 50px;
+margin-right: 100px;
+
+}
+.frome_from h1
+{
+  font-weight: 600;
+
+}
+input{
+  display: block;
+  padding: 10px 70px;
+  margin-top: 10px;
+}
+::placeholder
+{
+  font-weight: bold;
+ }
+
+ textarea
+{
+  margin-top: 20px;
+  border-radius: 8px;
+} 
+::placeholder
+{
+  font-weight: bold;
 }
