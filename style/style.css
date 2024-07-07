@@ -4,4 +4,118 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  list-style: none;
 }
+
+:root {
+  --bgColor: #fff8f3;
+  --btnColor: #fd6e0a;
+  --primaryColor: #757575;
+  --dark3Color: #757575;
+  --dark1Color: #181818;
+  --bgSecondaryColor: #ffffff;
+}
+
+/* header are  */
+
+header {
+  background-color: var(--bgColor);
+  height: 875px;
+  background-image: url('../images/developer.png'),url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+
+}
+head {
+  display: flex;
+  justify-content: space-between;
+}
+.head_are {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 150px;
+}
+
+.header_titel {
+  color: var(--dark1Color);
+}
+span {
+  color: var(--btnColor);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+li a {
+  text-decoration: none;
+  color: #474747;
+  font-weight: 500;
+}
+.btns {
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: var(--btnColor);
+  color: var(--bgColor);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.header_details {
+  display: flex;
+  justify-content: center;
+  line-height: 4rem;
+  margin-top: 58px;
+}
+.header_info {
+  position: relative;
+  top: 200px;
+  left: 150px;
+}
+
+.header_info h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--dark3Color);
+}
+.header_info h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+.header_info p {
+  width: 75%;
+  font-weight: 400;
+  color: var(--dark3Color);
+  line-height: normal;
+}
+.btn_i {
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid var(--btnColor);
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--btnColor);
+  margin-left: 10px;
+}
+.comon{
+  margin-top: 2rem;
+
+}
+.comon ion-icon
+{
+  margin-right:6px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
