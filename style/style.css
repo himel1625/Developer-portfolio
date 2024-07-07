@@ -119,7 +119,7 @@ li a {
 
 /* About me are  */
 .About_me {
-  height: 600px;
+  height: 500px;
 }
 .about {
   border: 1px solid transparent;
@@ -134,30 +134,128 @@ li a {
   height: 250px;
 }
 
-.about_info h1
-{
+.about_info h1 {
   font-size: 1.5rem;
   color: var(--dark1Color);
   text-align: center;
 }
-.about_info p 
-{
+.about_info p {
   color: var(--dark3Color);
   margin-top: 20px;
+  text-align: center;
 }
 .about_cantect_info {
   display: flex;
   justify-content: space-between;
   margin: 0 10px;
 }
-.item-title
-{
+.item-title {
   text-align: center;
   margin-top: 20px;
 }
 
-.item-description
-{
+.item-description {
   font-weight: bold;
   color: #474747;
+}
+
+/* what i do are  */
+
+.work_titel {
+  text-align: center;
+  margin-top: 30px;
+}
+.work_titel p {
+  margin: 0 auto;
+  width: 70%;
+  color: var(--dark3Color);
+  margin-top: 20px;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.skills h4 {
+  margin-top: 10px;
+}
+
+.skills p {
+  width: 70%;
+  color: var(--dark3Color);
+  margin-top: 10px;
+}
+
+/* A summary of My Resume  ar  */
+
+.My_Resume_caption h2 {
+  text-align: center;
+  margin: 50px 0;
+}
+.My_Resume {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+  margin-left: 80px;
+}
+.My_Education h1 {
+  margin-left: 45px;
+  margin-bottom: 20px;
+  color: var(--dark3Color);
+}
+.My_Education h5 {
+  font-size: 1rem;
+  color: var(--dark3Color);
+  margin-bottom: 10px;
+}
+.My_Education p {
+  width: 70%;
+  margin-bottom: 10px;
+  color: var(--dark3Color);
+  font-weight: 400;
+  font-size: 14px;
+}
+.My_Education hr {
+  width: 80%;
+  margin-bottom: 35px;
+}
+
+.My_Resume_caption h2 {
+  text-align: center;
+  margin-top: 150px;
+}
+.My_Resume {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+.My_Experience h1 {
+  margin-left: 45px;
+  margin-bottom: 20px;
+  color: var(--dark3Color);
+}
+.My_Experience h5 {
+  font-size: 1rem;
+  color: var(--dark3Color);
+  margin-bottom: 10px;
+}
+.My_Experience p {
+  width: 70%;
+  margin-bottom: 10px;
+  color: var(--dark3Color);
+  font-weight: 400;
+  font-size: 14px;
+}
+.My_Experience hr {
+  width: 80%;
+  margin-bottom: 35px;
+}
+
+.bottom_btn
+{
+text-align: center;
 }
